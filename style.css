@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+    background-color: #85be65;
+    color: #85be65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    height: auto; /* Set height to auto to fit content */
+    width: 300px; /* Adjust width as needed */
+    background-color: white;
+    padding: 20px;
+    text-align: center; /* Center-align content inside the div */
+}
+
+input {
+    display: block;
+    padding: 10px;
+    width: 100%; /* Make input width 100% of parent div */
+    margin-bottom: 10px; /* Add some spacing between inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 24px; /* Adjust font size as needed */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px; /* Add some spacing below the paragraph */
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #85be65;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.register{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    margin-top: 10px;
+    color: black;
+}
